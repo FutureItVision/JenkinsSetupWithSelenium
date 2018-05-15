@@ -14,6 +14,7 @@ public class TestOne {
 	driver.get("https://www.groupm.com/");
 	driver.findElementByXPath(".//*[@id='navbar']/div/div/div/a/img").isDisplayed();
 	driver.findElementByXPath(".//*[@id='navbar']/div/div/div/a/img").isDisplayed();
+	driver.findElementByXPath(".//*[@id='navbar']/div/div/div/a/img").isDisplayed();
 	driver.close();
 				
 	}
