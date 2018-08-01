@@ -14,7 +14,7 @@ public class TestOne {
 	driver.get("http://automationpractice.com/index.php");
 	driver.findElementByXPath(".//*[@id='header_logo']/a/img").isDisplayed();
 	
-	driver.quit();
+	driver.close();
 				
 	}
 
