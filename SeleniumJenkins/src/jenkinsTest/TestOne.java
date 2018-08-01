@@ -11,11 +11,10 @@ public class TestOne {
 		
 	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
 	ChromeDriver driver = new ChromeDriver();
-	driver.get("https://www.groupm.com/");
-	driver.findElementByXPath(".//*[@id='navbar']/div/div/div/a/img").isDisplayed();
-	driver.findElementByXPath(".//*[@id='navbar']/div/div/div/a/img").isDisplayed();
-	driver.findElementByXPath(".//*[@id='navbar']/div/div/div/a/img").isDisplayed();
-	driver.close();
+	driver.get("http://automationpractice.com/index.php");
+	driver.findElementByXPath(".//*[@id='header_logo']/a/img").isDisplayed();
+	
+	driver.quit();
 				
 	}
 
